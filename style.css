@@ -1,0 +1,39 @@
+body{
+    background-color:darksalmon;
+    text-align: center;
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+    display:flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+
+}
+ul li a{
+    display:block;
+    color:aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: green;
+}
+/* Add a lightgray right border to all list items, except the last */
+ul li {
+    float: left;
+    border-right: 1px solid #bbbbbb;
+  }
+  
+  ul li:last-child {
+    border-right: none;
+  }
