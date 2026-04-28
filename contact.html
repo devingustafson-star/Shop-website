@@ -16,8 +16,17 @@
 </ul>
 
     <!--End of Navigation Bar-->
-    <p1>We started cause of snowboarding</p1>
-
-    
+    <form onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+       
+        <label for="message">Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+       
+        <button type="submit">Send</button>
+       </form>
+       
+       <p id="response"></p>
+       <script src="script.js"></script>
 </body>
 </html>
